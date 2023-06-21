@@ -25,6 +25,11 @@
   margin-left: 7.6rem;
 }
 
+.product-detail-list {
+  margin: 8px auto;
+  font-size: 1.4rem;
+}
+
 .product-details-heading {
   width: 21.6rem;
   position: relative;
