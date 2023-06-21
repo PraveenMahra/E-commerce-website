@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Prosto+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #282828;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+  margin: auto;
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  max-width: 128rem;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem 5rem;
+}
+
+.heading {
+  font-family: "Prosto One", cursive;
+  font-weight: 400;
+}
+
+.brand-name {
+  font-size: 2rem;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.2rem;
+  color: #282828;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.icon {
+  display: flex;
+  gap: 2rem;
+  font-size: 1.2rem;
+}

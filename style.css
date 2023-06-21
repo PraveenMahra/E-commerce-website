@@ -1,0 +1,330 @@
+.introduction {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12rem;
+  place-items: center;
+}
+
+.intro-heading {
+  font-size: 3.6rem;
+}
+
+.intro-para {
+  font-size: 1.6rem;
+}
+
+.image img {
+  width: 62.8rem;
+}
+
+.intro-btn {
+  padding: 1.8rem 7.7rem;
+  margin-top: 3rem;
+  background-color: #282828;
+  border: none;
+  color: #ffff;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.intro-btn:hover {
+  cursor: pointer;
+}
+
+.sec-features {
+  height: 21.6rem;
+  background-color: #f4f4f4;
+}
+
+.section-features-text {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 7.6rem;
+  margin-top: 9.6rem;
+  gap: 5.7rem;
+}
+
+.section-features-text div {
+  display: flex;
+  align-items: center;
+}
+
+.feature-text {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #282828;
+}
+
+.feature-btn {
+  text-align: center;
+}
+
+.feature-btn button {
+  padding: 1.8rem 7.7rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-top: 5rem;
+}
+
+.feature-btn button:hover {
+  cursor: pointer;
+}
+
+.collection-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
+
+.collection-heading {
+  text-align: center;
+  margin: 5rem;
+  font-size: 3.2rem;
+}
+
+.collection-grid img {
+  width: 36rem;
+  margin-bottom: 1.8rem;
+}
+
+.collection-grid p {
+  font-weight: 500;
+  font-size: 1.6rem;
+  margin-bottom: 6rem;
+}
+
+.collection-grid p a {
+  text-decoration: none;
+  color: #282828;
+}
+
+.sec-blog {
+  background-color: #f4f4f4;
+  padding: 3rem 7.6rem;
+  margin-top: 9.2rem;
+}
+
+.blog-heading {
+  text-align: center;
+  font-size: 3.2rem;
+  margin-bottom: 5rem;
+}
+
+.sec-blog-flex {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.blog-post-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+
+.blog-post-para {
+  font-size: 1.6rem;
+  margin: 4.8rem auto;
+}
+
+.sec-blog-btn {
+  font-size: 1.4rem;
+  font-weight: 500;
+  border: none;
+}
+
+.sec-wholesale-flex {
+  display: flex;
+  align-items: center;
+  margin: 7.2rem auto;
+}
+
+.sec-whosale-heading {
+  font-size: 3.6rem;
+  margin: 0 12rem 3rem 7.6rem;
+}
+
+.sec-wholesale-para {
+  font-size: 1.6rem;
+  margin: auto 19.7rem 4.8rem 7.6rem;
+}
+
+.sec-wholesale-btn {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin: auto 19.7rem 4.8rem 7.6rem;
+  padding: 1.8rem 7.7rem;
+}
+
+.sec-wholesale-btn:hover {
+  cursor: pointer;
+}
+
+.section-footer {
+  background-color: #f4f4f4;
+}
+
+.sec-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 7.6rem;
+}
+
+.sec-footer-heading {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 2.4rem;
+}
+
+.section-footer ul li {
+  font-family: "Montserrat", sans-serif;
+  padding: 9px;
+  list-style: none;
+  font-size: 1.4rem;
+}
+
+.section-footer ul li a {
+  text-decoration: none;
+  color: #282828;
+}
+
+.sec-footer-icon {
+  margin-right: 1rem;
+}
+
+@media (max-width: 70rem) {
+  .brand-name {
+    position: absolute;
+    top: 2rem;
+  }
+
+  header {
+    margin: 8rem 5rem 3rem;
+  }
+
+  .introduction {
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+  }
+
+  .collection-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sec-blog-flex {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sec-wholesale-flex {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sec-whosale-heading {
+    margin: 0 0rem 3rem 0rem;
+  }
+
+  .sec-wholesale-para {
+    width: 80%;
+    margin: auto auto 4.8rem auto;
+  }
+
+  .sec-wholesale-btn {
+    margin: auto 0rem 4.8rem 0rem;
+  }
+
+  .sec-footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    gap: 4rem;
+  }
+}
+
+@media (max-width: 50rem) {
+  .intro-text {
+    width: 80%;
+  }
+
+  .section-features-text {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sec-features {
+    height: auto;
+  }
+
+  .feature-btn button {
+    margin-top: 0;
+  }
+
+  .collection-grid {
+    grid-template-columns: auto;
+  }
+
+  .sec-blog-flex {
+    grid-template-columns: auto;
+    place-items: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 42rem) {
+  header {
+    margin: 8rem 2rem 3rem;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: normal;
+  }
+
+  .icon {
+    flex-direction: column;
+  }
+
+  .introduction img {
+    width: 80%;
+  }
+
+  .sec-wholesale img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 26rem) {
+  .brand-name {
+    font-size: 1.6rem;
+  }
+
+  .section-features-text {
+    grid-template-columns: auto;
+  }
+
+  .collection-grid img {
+    width: 25rem;
+  }
+
+  .sec-blog {
+    padding: 0;
+  }
+
+  .sec-whosale-heading {
+    font-size: 2rem;
+  }
+
+  .sec-wholesale-btn {
+    padding: 1rem 3rem;
+  }
+
+  .sec-footer {
+    padding: 0;
+    gap: 0;
+  }
+}
