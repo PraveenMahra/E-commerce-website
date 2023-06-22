@@ -232,38 +232,13 @@
 }
 
 @media (max-width: 60rem) {
-  .brand-name {
-    position: absolute;
-    top: 2rem;
-  }
-
-  header {
-    margin: 8rem 5rem 3rem auto;
-  }
-
   .related-product-list {
     flex-direction: column;
     align-items: center;
   }
-
-  .sec-footer {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    text-align: center;
-    gap: 4rem;
-  }
 }
 
 @media (max-width: 40rem) {
-  .navbar {
-    flex-direction: column;
-    align-items: normal;
-  }
-
-  .icon {
-    flex-direction: column;
-  }
-
   .sec-product-features {
     padding: 5%;
   }
@@ -292,10 +267,6 @@
 }
 
 @media (max-width: 32rem) {
-  .brand-name {
-    font-size: 1.6rem;
-  }
-
   .product-img img {
     width: 90%;
     margin: 1rem;
@@ -349,10 +320,5 @@
 
   .line2 {
     margin-left: 0;
-  }
-
-  .sec-footer {
-    padding: 0;
-    gap: 0;
   }
 }

@@ -80,3 +80,43 @@ header {
 .icon a {
   color: #282828;
 }
+
+@media (max-width: 70rem) {
+  .brand-name {
+    position: absolute;
+    top: 2rem;
+  }
+
+  header {
+    margin: 8rem 5rem 3rem auto;
+  }
+
+  .sec-footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    gap: 4rem;
+  }
+}
+
+@media (max-width: 42rem) {
+  .navbar {
+    flex-direction: column;
+    align-items: normal;
+  }
+
+  .icon {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 26rem) {
+  .brand-name {
+    font-size: 1.6rem;
+  }
+
+  .sec-footer {
+    padding: 0;
+    gap: 0;
+  }
+}
