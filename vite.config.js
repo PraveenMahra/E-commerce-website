@@ -6,6 +6,7 @@ export default defineConfig({
       input: {
         main: "./index.html",
         collection: "./collection.html",
+        product: "./product.html",
       },
     },
   },
