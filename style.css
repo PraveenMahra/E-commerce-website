@@ -200,7 +200,7 @@
   }
 
   header {
-    margin: 8rem 5rem 3rem;
+    margin: 8rem 5rem 3rem auto;
   }
 
   .introduction {
@@ -276,10 +276,6 @@
 }
 
 @media (max-width: 42rem) {
-  header {
-    margin: auto;
-  }
-
   .navbar {
     flex-direction: column;
     align-items: normal;
