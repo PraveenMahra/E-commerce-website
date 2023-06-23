@@ -7,6 +7,7 @@ export default defineConfig({
         main: "./index.html",
         collection: "./collection.html",
         product: "./product.html",
+        bag: "./mybag.html",
       },
     },
   },

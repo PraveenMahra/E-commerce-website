@@ -4,8 +4,6 @@
 :root {
   line-height: 1.5;
   font-weight: 400;
-
-  color-scheme: light dark;
   color: #282828;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -79,6 +77,38 @@ header {
 
 .icon a {
   color: #282828;
+}
+
+.section-footer {
+  background-color: #f4f4f4;
+}
+
+.sec-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 7.6rem;
+}
+
+.sec-footer-heading {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 2.4rem;
+}
+
+.section-footer ul li {
+  font-family: "Montserrat", sans-serif;
+  padding: 9px;
+  list-style: none;
+  font-size: 1.4rem;
+}
+
+.section-footer ul li a {
+  text-decoration: none;
+  color: #282828;
+}
+
+.sec-footer-icon {
+  margin-right: 1rem;
 }
 
 @media (max-width: 70rem) {

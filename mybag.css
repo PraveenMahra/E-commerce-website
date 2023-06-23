@@ -1,0 +1,329 @@
+.steps {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 4rem 5rem;
+}
+
+.first-step {
+  font-size: 2.2rem;
+}
+
+.second-step,
+.third-step {
+  font-size: 2.2rem;
+  color: #a0a0a0;
+}
+
+.line {
+  width: 25rem;
+  height: 1px;
+  background-color: #a0a0a0;
+}
+
+.section-order-list {
+  display: flex;
+  align-items: baseline;
+  margin: auto 5rem;
+  gap: 22rem;
+}
+
+.order-list {
+  display: flex;
+  gap: 2.6rem;
+  margin-bottom: 3.8rem;
+}
+
+.order-list img {
+  width: 7.1rem;
+  height: 7.1rem;
+}
+
+.sec-order-list-para {
+  width: 25.9rem;
+  font-size: 1.4rem;
+}
+
+.product-name {
+  margin-bottom: 1.5rem;
+}
+
+.order-list-remove-btn {
+  border: none;
+  background: none;
+  text-align: start;
+  font-size: 1.4rem;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+
+.order-list-remove-btn:hover {
+  cursor: pointer;
+}
+
+.add-quantity {
+  font-size: 2.2rem;
+}
+
+.add-quantity span {
+  margin: auto 8px;
+}
+
+.add-quantity p {
+  font-weight: 500;
+  font-size: 1.6rem;
+  margin-top: 1.9rem;
+  text-align: end;
+}
+
+.order-list-line {
+  width: 41.6rem;
+  border: 1px solid #a0a0a0;
+  margin-left: 2rem;
+  margin-bottom: 3.8rem;
+}
+
+.order-total {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-total-value {
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+.back-shopping-btn {
+  text-align: center;
+}
+
+.go-back-shopping-btn {
+  margin-top: 3.8rem;
+  padding: 1rem 2.4rem;
+  width: 31.4rem;
+  height: 5.6rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  border: 1px solid #a0a0a0;
+}
+
+.go-back-shopping-btn:hover {
+  cursor: pointer;
+}
+
+.order-summery {
+  padding: 4.4rem 2.4rem 5.6rem 2.5rem;
+  background-color: #f4f4f4;
+  width: 50rem;
+}
+
+.order-summery-heading {
+  font-size: 2.2rem;
+  margin-bottom: 3.5rem;
+  font-weight: 400;
+}
+
+.order-summery-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.1rem;
+}
+
+.order-summery-value {
+  font-weight: 500;
+}
+
+.order-summery-line {
+  width: 41.6rem;
+  border: 1px solid #a0a0a0;
+  margin-left: 2rem;
+}
+
+.order-summery-total {
+  display: flex;
+  justify-content: space-between;
+  margin: 2.1rem auto;
+}
+
+.order-summery-total-text {
+  font-weight: 500;
+}
+
+.order-summery-total-value {
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+
+.estimate-time {
+  color: rgba(40, 40, 40, 0.7);
+  margin-bottom: 2.1rem;
+}
+
+.order-summery-btn {
+  width: 45.2rem;
+  height: 5.6rem;
+  padding: 1rem 2.4rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #282828;
+  border: none;
+}
+
+.payment-type {
+  width: 50rem;
+  height: 18.4rem;
+  padding: 4.4rem 4rem 5.2rem 2.1rem;
+  background-color: #f4f4f4;
+  margin: 5.4rem auto;
+}
+
+.payment-svg {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.8rem;
+}
+
+.payment-svg p {
+  width: 4.8rem;
+  height: 3.2rem;
+  background-color: #212b36;
+  color: #ffffff;
+  font-size: 8px;
+  font-weight: 600;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.delivery-instructions {
+  display: inline-flex;
+  width: 50rem;
+  padding: 4.1rem 3.9rem 4.5rem 2rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 36px;
+  background-color: #f4f4f4;
+  margin-bottom: 9.9rem;
+}
+
+.delivery-instructions div {
+  display: flex;
+  gap: 8px;
+}
+
+.delivery-instructions div p {
+  width: 35rem;
+  font-size: 1.4rem;
+}
+
+.related-product-list {
+  display: flex;
+  justify-content: center;
+  gap: 2.4rem;
+  margin-bottom: 10.9rem;
+}
+
+.related-product-heading {
+  font-family: "Prosto One", cursive;
+  text-align: center;
+  font-size: 3.2rem;
+  margin-bottom: 4rem;
+}
+
+.product-name-rate {
+  text-align: center;
+}
+
+.product-name-rate a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #282828;
+}
+
+.rate {
+  font-weight: 500;
+}
+
+@media (max-width: 77rem) {
+  .section-order-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 10rem;
+  }
+}
+
+@media (max-width: 55rem) {
+  .related-product-list {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 34rem) {
+  .steps {
+    display: block;
+  }
+
+  .line {
+    width: auto;
+    margin: 2rem auto;
+  }
+
+  .order-list {
+    display: block;
+    text-align: center;
+  }
+
+  .section-order-list {
+    display: block;
+  }
+
+  .sec-order-list-para {
+    width: auto;
+  }
+
+  .order-list-line {
+    width: auto;
+  }
+
+  .go-back-shopping-btn {
+    width: auto;
+    height: auto;
+    font-size: 1.4rem;
+  }
+
+  .order-summery {
+    width: auto;
+    text-align: center;
+    margin-top: 5rem;
+  }
+
+  .order-summery-line {
+    width: auto;
+  }
+
+  .order-summery-btn {
+    width: auto;
+  }
+
+  .payment-type {
+    width: auto;
+    height: auto;
+    padding: 8%;
+  }
+
+  .payment-svg {
+    display: block;
+  }
+
+  .delivery-instructions {
+    width: auto;
+  }
+
+  .delivery-instructions div p {
+    width: auto;
+  }
+}

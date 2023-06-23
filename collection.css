@@ -23,6 +23,7 @@
 .product-details {
   margin-top: 7.8rem;
   margin-left: 7.6rem;
+  margin-bottom: 5.1rem;
 }
 
 .product-detail-list {
@@ -73,39 +74,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2.4rem;
-}
-
-.section-footer {
-  background-color: #f4f4f4;
-  margin-top: 19.8rem;
-}
-
-.sec-footer {
-  display: flex;
-  justify-content: space-between;
-  padding: 3rem 7.6rem;
-}
-
-.sec-footer-heading {
-  font-size: 1.6rem;
-  font-weight: 500;
-  margin-bottom: 2.4rem;
-}
-
-.section-footer ul li {
-  font-family: "Montserrat", sans-serif;
-  padding: 9px;
-  list-style: none;
-  font-size: 1.4rem;
-}
-
-.section-footer ul li a {
-  text-decoration: none;
-  color: #282828;
-}
-
-.sec-footer-icon {
-  margin-right: 1rem;
+  margin-bottom: 19.8rem;
 }
 
 @media (max-width: 83rem) {
