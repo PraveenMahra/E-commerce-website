@@ -283,10 +283,11 @@
   }
 
   .product-specification {
-    align-items: flex-start;
+    align-items: center;
   }
 
   .line2 {
     margin-left: 0;
+    width: 100%;
   }
 }
