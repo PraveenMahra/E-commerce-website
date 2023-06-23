@@ -9,6 +9,7 @@ export default defineConfig({
         collection: resolve(__dirname, "collection.html"),
         product: resolve(__dirname, "product.html"),
         bag: resolve(__dirname, "bag.html"),
+        account: resolve(__dirname, "account.html"),
       },
     },
   },
