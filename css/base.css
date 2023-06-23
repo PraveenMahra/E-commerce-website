@@ -93,6 +93,7 @@ header {
   font-size: 1.6rem;
   font-weight: 500;
   margin-bottom: 2.4rem;
+  margin-top: 2rem;
 }
 
 .section-footer ul li {
@@ -118,7 +119,7 @@ header {
   }
 
   header {
-    margin: 8rem 5rem 3rem 3rem;
+    margin: 6rem 1rem 2rem 1rem;
   }
 
   .sec-footer {
@@ -147,7 +148,15 @@ header {
   }
 
   .sec-footer {
-    padding: 5rem 0;
+    padding: 0;
     gap: 0;
+  }
+
+  .sec-footer-heading {
+    margin-bottom: 5px;
+  }
+
+  .sec-footer ul li {
+    padding: 5px 0;
   }
 }

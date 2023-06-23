@@ -80,6 +80,7 @@
 @media (max-width: 83rem) {
   .cover-img img {
     width: 100%;
+    height: 15vh;
   }
 
   .rate-list {
@@ -91,6 +92,7 @@
 @media (max-width: 69rem) {
   .rate-list {
     grid-template-columns: auto;
+    gap: 2rem;
   }
 
   .section-product-details {
@@ -114,7 +116,26 @@
     align-items: center;
   }
 
+  .cover-text {
+    text-align: center;
+    margin: 1rem 0 0 0;
+  }
+
   .product-details {
     margin-left: 0rem;
+    margin-top: 4rem;
+  }
+
+  .product-details-heading {
+    width: auto;
+  }
+
+  .line {
+    width: auto;
+    margin: 1.5rem 0;
+  }
+
+  .rate-list div img {
+    width: 100%;
   }
 }

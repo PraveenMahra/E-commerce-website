@@ -135,10 +135,20 @@
 
     .user-detail {
       width: auto;
+      padding: 1rem;
+      margin: 2rem 0;
+    }
+
+    .product-detail-icon {
+      margin: 2rem 0;
+    }
+
+    .create-account-page {
+      padding: 1rem;
     }
 
     .sign-in-page {
-      padding: 5%;
+      padding: 1rem;
       margin-bottom: 5rem;
     }
 
@@ -155,8 +165,13 @@
       width: 100%;
     }
 
+    .checkout {
+      padding: 2rem;
+    }
+
     .checkout-btn {
       width: 100%;
+      margin-top: 2rem;
     }
   }
 }
