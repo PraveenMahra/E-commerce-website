@@ -1,3 +1,4 @@
+import { resolve } from "path";
 import { defineConfig } from "vite";
 
 export default defineConfig({
@@ -5,9 +6,9 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: "./index.html",
-        collection: "./collection.html",
-        product: "./product.html",
-        bag: "./mybag.html",
+        collection: resolve(__dirname, "collection.html"),
+        product: resolve(__dirname, "product.html"),
+        bag: resolve(__dirname, "bag.html"),
       },
     },
   },
