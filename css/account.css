@@ -2,11 +2,12 @@
   display: flex;
   gap: 12rem;
   margin-left: 5rem;
+  align-items: baseline;
 }
 
 .sign-in-page {
   background-color: #f4f4f4;
-  padding: 1.8rem;
+  padding: 5rem;
 }
 
 .sign-in-heading {
@@ -14,11 +15,148 @@
   margin-bottom: 1.8rem;
 }
 
-input {
-  margin: 1.8rem auto;
+.user-detail {
+  display: flex;
+  gap: 1.6rem;
+  background-color: #ffffff;
+  border: 1px solid #282828;
+  margin: 3.8rem auto;
   width: 45.6rem;
   padding: 1.6rem 2rem;
-  background-image: url(accoutIcon/Leading\ Icon.svg);
-  background-repeat: no-repeat;
-  background-position: 9px 9px;
+}
+
+.user-detail input {
+  width: 100%;
+  font-size: 2rem;
+  color: #282828;
+  border: none;
+  outline: none;
+}
+
+.forget-password {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remember-box input {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 8px;
+}
+
+.remember-box input:hover {
+  cursor: pointer;
+}
+
+.forget-password a {
+  text-decoration: none;
+  color: #c3b212;
+}
+.sign-in-btn {
+  width: 45.6rem;
+  height: 5.6rem;
+  background-color: #282828;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #ffffff;
+  margin-top: 1.8rem;
+  border: none;
+}
+
+.sign-in-btn:hover {
+  cursor: pointer;
+}
+
+.create-account-page {
+  background-color: #f4f4f4;
+  padding: 5rem;
+}
+
+.create-account-heading {
+  font-size: 2.2rem;
+  margin-bottom: 1.8rem;
+}
+
+.create-account-page div {
+  display: flex;
+  gap: 8px;
+  margin: 3.1rem 0;
+}
+
+.creat-account-btn {
+  width: 39.2rem;
+  height: 5.6rem;
+  border: 1px solid #282828;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.creat-account-btn:hover {
+  cursor: pointer;
+}
+
+.checkout {
+  padding: 3.2rem 2.8rem 4.8rem 3.6rem;
+  background-color: #f4f4f4;
+  margin-top: 5.5rem;
+  margin-bottom: 9.2rem;
+}
+
+.checkout-heading {
+  font-size: 2.2rem;
+  margin-bottom: 1.8rem;
+}
+
+.checkout-btn {
+  width: 39.2rem;
+  height: 5.6rem;
+  border: 1px solid #282828;
+  font-size: 1.4rem;
+  margin-top: 4rem;
+  font-weight: 500;
+}
+
+.checkout-btn:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 76rem) {
+  .account-page {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+
+  @media (max-width: 44rem) {
+    .account-page {
+      display: block;
+    }
+
+    .user-detail {
+      width: auto;
+    }
+
+    .sign-in-page {
+      padding: 5%;
+      margin-bottom: 5rem;
+    }
+
+    .forget-password {
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .sign-in-btn {
+      width: 100%;
+    }
+
+    .creat-account-btn {
+      width: 100%;
+    }
+
+    .checkout-btn {
+      width: 100%;
+    }
+  }
 }

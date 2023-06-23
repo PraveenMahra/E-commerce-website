@@ -27,7 +27,7 @@
       </nav>
       <div class="icon">
         <a href="#"> <i class="fa-solid fa-magnifying-glass"></i></a>
-        <a href="#"> <i class="fa-regular fa-user"></i></a>
+        <a href="/account"> <i class="fa-regular fa-user"></i></a>
         <a href="/bag"> <i class="fa-solid fa-bag-shopping"></i></a>
       </div>
     </header>
@@ -39,21 +39,114 @@
         <p>Welcome back! Sign in for faster checkout.</p>
 
         <form action="">
-          <div>
+          <div class="user-detail">
+            <img src="./assets/icons/emai.svg" alt="icon" />
             <input type="text" placeholder="Email Address" />
-            <img src="/accoutIcon/Leading Icon.svg" alt="icon" />
           </div>
-          <div>
+          <div class="user-detail">
+            <img src="./assets/icons/password.svg" alt="icon" />
             <input type="text" placeholder="Enter your password" />
-            <img src="/accoutIcon/Leading Icon (1).svg" alt="icon" />
           </div>
+
+          <div class="forget-password">
+            <div class="remember-box">
+              <input type="checkbox" id="checkbox" />
+              <label for="checkbox">Please remember me</label>
+            </div>
+
+            <a href="#"> Forget password? </a>
+          </div>
+
+          <button class="sign-in-btn">SIGN IN</button>
         </form>
       </div>
-      <div class="create-account-page">
-        <h2>New to our company?</h2>
+
+      <div>
+        <div class="create-account-page">
+          <h2 class="create-account-heading">New to our company?</h2>
+          <p>Create an account for the best experience</p>
+          <div>
+            <img src="/assets/icons/expand_more.svg" alt="icon" />
+            <p>Modify and track your orders</p>
+          </div>
+          <div>
+            <img src="/assets/icons/expand_more.svg" alt="icon" />
+            <p>Faster checkout</p>
+          </div>
+          <div>
+            <img src="/assets/icons/expand_more.svg" alt="icon" />
+            <p>Get a 10% discount for new customer</p>
+          </div>
+
+          <button class="creat-account-btn">CREATE AN ACCOUNT</button>
+        </div>
+        <div class="checkout">
+          <h2 class="checkout-heading">Guest checkout</h2>
+          <p>No ready to become a customer?</p>
+          <button class="checkout-btn">CHECKOUT AS A GUEST</button>
+        </div>
       </div>
     </section>
   </div>
+
+  <footer class="section-footer">
+    <div class="container">
+      <div class="sec-footer">
+        <div>
+          <h2 class="sec-footer-heading">COLLECTIONS</h2>
+          <ul>
+            <li><a href="#"> Black teas</a></li>
+            <li><a href="#"> Green teas</a></li>
+            <li><a href="#"> White teas</a></li>
+            <li><a href="#"> Herbal teas</a></li>
+            <li><a href="#"> Matcha</a></li>
+            <li><a href="#"> Chai</a></li>
+            <li><a href="#"> Oolang</a></li>
+            <li><a href="#"> Rooibos</a></li>
+            <li><a href="#"> Teware</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="sec-footer-heading">LEARN</h2>
+          <ul>
+            <li><a href="#"> About us</a></li>
+            <li><a href="#"> About our teas</a></li>
+            <li><a href="#"> Tea academy</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="sec-footer-heading">CUSTOMER SERVICE</h2>
+          <ul>
+            <li><a href="#"> Ordering and payment</a></li>
+            <li><a href="#"> Delivery</a></li>
+            <li><a href="#"> Privacy and policy</a></li>
+            <li><a href="#"> Terms & conditions</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="sec-footer-heading">CONTACT US</h2>
+          <ul>
+            <li>
+              <i class="sec-footer-icon fa-solid fa-location-dot"></i>
+              <a href="#">
+                3 Falahi, Falahi St, Pasdaran Ave, <br />
+                Shiraz, Fars Provieence <br />
+                Iran
+              </a>
+            </li>
+            <li>
+              <i class="sec-footer-icon fa-regular fa-envelope"></i>
+              <a href="#"> Email: amoopur@gmail.com </a>
+            </li>
+            <li>
+              <i class="sec-footer-icon fa-solid fa-phone"></i>
+              <a href="#"> Tel: +98 9173038406 </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
 
   <script src="/main.js"></script>
   <body></body>

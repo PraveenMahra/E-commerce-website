@@ -137,6 +137,7 @@ header {
 
   .icon {
     flex-direction: column;
+    font-size: 1.8rem;
   }
 }
 
@@ -146,7 +147,7 @@ header {
   }
 
   .sec-footer {
-    padding: 0;
+    padding: 5rem 0;
     gap: 0;
   }
 }
