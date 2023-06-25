@@ -147,6 +147,7 @@
   .order-details {
     flex-direction: column;
     align-items: center;
+    margin: 1rem;
   }
 }
 
@@ -164,9 +165,8 @@
     width: auto;
   }
 
-  .order-list {
-    display: block;
-    text-align: center;
+  .sec-order-list-para {
+    width: auto;
   }
 
   .shopping-btn-print {
