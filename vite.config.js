@@ -10,6 +10,7 @@ export default defineConfig({
         product: resolve(__dirname, "product.html"),
         bag: resolve(__dirname, "bag.html"),
         account: resolve(__dirname, "account.html"),
+        success: resolve(__dirname, "success.html"),
       },
     },
   },

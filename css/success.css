@@ -1,0 +1,175 @@
+.thank-you-heading {
+  font-size: 3.6rem;
+  font-family: "Prosto One", cursive;
+  margin-bottom: 1.6rem;
+  text-align: center;
+}
+
+.thank-you-para {
+  text-align: center;
+  width: 62.1rem;
+  margin: auto;
+}
+
+.sec-order-detail-heading {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 500;
+  margin: 2.8rem auto 5.3rem auto;
+}
+
+.order-details {
+  display: flex;
+  justify-content: center;
+  gap: 7.2rem;
+  margin-bottom: 14.8rem;
+}
+
+.order-list {
+  display: flex;
+  gap: 2.6rem;
+  margin-bottom: 3.8rem;
+}
+
+.order-list img {
+  width: 7.1rem;
+  height: 7.1rem;
+}
+
+.sec-order-list-para {
+  width: 25.9rem;
+  font-size: 1.4rem;
+}
+
+.add-quantity p {
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+.order-list-line {
+  width: 41.6rem;
+  border: 1px solid #a0a0a0;
+  margin-left: 2rem;
+  margin-bottom: 3.8rem;
+}
+
+.order-total {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-total-value {
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+.order-summery-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.1rem;
+  margin-top: 2.1rem;
+}
+
+.order-summery-value {
+  font-weight: 500;
+}
+
+.order-summery-total {
+  display: flex;
+  justify-content: space-between;
+  margin: 2.1rem auto;
+}
+
+.order-summery-total-text {
+  font-weight: 500;
+}
+
+.order-summery-total-value {
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+
+.delivery-dtails-heading {
+  font-size: 2.2rem;
+  margin-bottom: 1.2rem;
+  font-weight: 400;
+}
+
+.delivery-details-subheading {
+  font-family: 500;
+  font-size: 1.6rem;
+  margin-bottom: 8px;
+}
+
+.delivery-details-para {
+  margin-bottom: 4rem;
+  width: 26.4rem;
+}
+
+.payment-method-heading {
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+
+.payment-method-subheading {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-top: 1.2rem;
+}
+
+.estimate-heading {
+  margin-top: 2.8rem;
+}
+
+.shopping-btn-print {
+  margin-top: 23.2rem;
+}
+
+.btn {
+  width: 26.4rem;
+  height: 5.6rem;
+  padding: 1rem 2.4rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.keep-shopping-btn {
+  background-color: #282828;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+.print-btn {
+  border: 1px solid #282828;
+}
+
+@media (max-width: 72rem) {
+  .order-details {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 42rem) {
+  .thank-you-para {
+    width: auto;
+    margin: auto 2rem;
+  }
+
+  .thank-you-heading {
+    font-size: 2.5rem;
+  }
+
+  .order-list-line {
+    width: auto;
+  }
+
+  .order-list {
+    display: block;
+    text-align: center;
+  }
+
+  .shopping-btn-print {
+    margin-top: 5rem;
+  }
+}
