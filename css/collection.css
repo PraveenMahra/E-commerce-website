@@ -1,3 +1,7 @@
+.hidden {
+  display: none;
+}
+
 .cover-text {
   margin: 3.3rem auto auto 7.6rem;
 }
@@ -36,11 +40,38 @@
   position: relative;
   font-size: 1.6rem;
   font-weight: 500;
+  cursor: pointer;
+}
+
+.organic-heading {
+  font-size: 1.6rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.toggle-off-icon {
+  position: absolute;
+  margin-left: 2rem;
+}
+
+.toggle-on-icon {
+  position: absolute;
+  margin-left: 2rem;
 }
 
 .product-detail-icon {
   position: absolute;
   right: 0;
+  cursor: pointer;
+}
+
+.icon-minus {
+  position: absolute;
+  right: 0;
+}
+
+.icon-minus:hover {
+  cursor: pointer;
 }
 
 .product-lists {
@@ -56,14 +87,18 @@
   font-weight: 500;
 }
 
-.product-name-rate {
-  text-align: center;
-}
-
-.product-name-rate a {
+.product-link {
   text-decoration: none;
   font-size: 1.6rem;
   color: #282828;
+}
+
+.product-link:hover {
+  text-decoration: underline;
+}
+
+.product-name-rate {
+  text-align: center;
 }
 
 .rate {

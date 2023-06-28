@@ -79,6 +79,61 @@ header {
   color: #282828;
 }
 
+.cookies {
+  position: fixed;
+  bottom: 5rem;
+  left: 2rem;
+  max-width: 34.5rem;
+  width: 100%;
+  background-color: #f4f4f4;
+  color: #282828;
+  border-radius: 8px;
+  padding: 1.5rem 2.5rem 2.2rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.cookie-header {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.cookie-header i {
+  color: #282828;
+  font-size: 3.2rem;
+}
+
+.cookie-header h2 {
+  color: #282828;
+}
+
+.cookies .data p a {
+  text-decoration: none;
+  display: inline-block;
+  color: #282828;
+  font-weight: 500;
+  margin: 1.2rem 0;
+}
+
+.cookies .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1.2rem;
+}
+
+.cookies .buttons .btn {
+  font-weight: 500;
+  font-size: 1.4rem;
+  padding: 1rem;
+  width: 100%;
+  cursor: pointer;
+}
+
 .section-footer {
   background-color: #f4f4f4;
 }
