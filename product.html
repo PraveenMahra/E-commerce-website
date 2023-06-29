@@ -60,23 +60,39 @@
           <h3 class="product-rate">$3.90</h3>
           <p class="variants">Variants</p>
           <div class="variants-img">
-            <img src="./assets/img/Frame 57.png" alt="img" />
-            <img src="./assets/img/Frame 58.png" alt="img" />
-            <img src="./assets/img/Frame 59.png" alt="img" />
-            <img src="./assets/img/Frame 60.png" alt="img" />
-            <img src="./assets/img/Frame 61.png" alt="img" />
-            <img src="./assets/img/Frame 62.png" alt="img" />
+            <button class="bag-50g bag-variants">
+              <img src="./assets/img/Frame 57.png" alt="img" />
+            </button>
+            <button class="bag-100g bag-variants">
+              <img src="./assets/img/Frame 58.png" alt="img" />
+            </button>
+            <button class="bag-170g bag-variants">
+              <img src="./assets/img/Frame 59.png" alt="img" />
+            </button>
+            <button class="bag-250g bag-variants">
+              <img src="./assets/img/Frame 60.png" alt="img" />
+            </button>
+            <button class="bag-1kg bag-variants">
+              <img src="./assets/img/Frame 61.png" alt="img" />
+            </button>
+            <button class="bag-sampler bag-variants">
+              <img src="./assets/img/Frame 62.png" alt="img" />
+            </button>
           </div>
 
           <div class="add-to-bag">
             <div class="add-quantity">
-              <i class="add-to-bag-icon fa-solid fa-minus"></i>
-              <span>1</span>
-              <i class="add-to-bag-icon fa-solid fa-plus"></i>
+              <button class="minus-btn input-btn">
+                <i class="add-to-bag-icon fa-solid fa-minus"></i>
+              </button>
+              <input type="number" id="quantityInput" min="1" value="1" />
+              <button class="plus-btn input-btn">
+                <i class="add-to-bag-icon fa-solid fa-plus"></i>
+              </button>
             </div>
 
             <div class="add-btn">
-              <button>
+              <button class="addcart-btn">
                 <i class="add-to-bag-icon fa-solid fa-bag-shopping"></i>ADD TO
                 BAG
               </button>
@@ -237,5 +253,6 @@
         </div>
       </div>
     </footer>
+    <script src="/js/product.js"></script>
   </body>
 </html>

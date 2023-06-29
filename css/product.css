@@ -50,6 +50,16 @@
   margin-bottom: 1.8rem;
 }
 
+.bag-variants {
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+
+.bag-border {
+  border: 2px solid #c3b212;
+}
+
 .add-to-bag {
   display: flex;
   align-items: center;
@@ -60,6 +70,31 @@
 .add-quantity {
   font-size: 2.2rem;
   color: #000000;
+}
+
+.add-quantity input {
+  border: none;
+  outline: none;
+  width: 5rem;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.input-btn {
+  border: none;
+  cursor: pointer;
+  background: none;
+  font-size: 2.5rem;
 }
 
 .add-to-bag-icon {
