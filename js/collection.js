@@ -27,7 +27,7 @@ const productData = [
     lastName: "Cinnamon chai tea",
     currency: "$",
     rate: 4.8,
-    image: "./assets/img/product-img1.png",
+    image: "/assets/img/product-img1.png",
   },
   {
     id: 2,
@@ -35,7 +35,7 @@ const productData = [
     lastName: "Cinnamon chai tea",
     currency: "$",
     rate: 5.8,
-    image: "./assets/img/product-img2.png",
+    image: "/assets/img/product-img2.png",
   },
   {
     id: 3,
@@ -43,7 +43,7 @@ const productData = [
     lastName: "Cinnamon chai tea",
     currency: "$",
     rate: 4.8,
-    image: "./assets/img/product-img3.png",
+    image: "/assets/img/product-img3.png",
   },
   {
     id: 4,
@@ -51,7 +51,7 @@ const productData = [
     lastName: "Cinnamon chai tea",
     currency: "$",
     rate: 4.8,
-    image: "./assets/img/product-img4.png",
+    image: "/assets/img/product-img4.png",
   },
   {
     id: 5,
@@ -59,7 +59,7 @@ const productData = [
     lastName: "Cinnamon chai tea",
     currency: "$",
     rate: 4.8,
-    image: "./assets/img/product-img5.png",
+    image: "/assets/img/product-img5.png",
   },
   {
     id: 6,
@@ -67,7 +67,7 @@ const productData = [
     lastName: "Cinnamon chai tea",
     currency: "$",
     rate: 4.8,
-    image: "./assets/img/product-img6.png",
+    image: "/assets/img/product-img6.png",
   },
   {
     id: 7,
@@ -75,7 +75,7 @@ const productData = [
     lastName: "Cinnamon chai tea",
     currency: "$",
     rate: 4.8,
-    image: "./assets/img/product-img7.png",
+    image: "/assets/img/product-img7.png",
   },
   {
     id: 8,
@@ -83,7 +83,7 @@ const productData = [
     lastName: "Cinnamon chai tea",
     currency: "$",
     rate: 4.8,
-    image: "./assets/img/product-img8.png",
+    image: "/assets/img/product-img8.png",
   },
   {
     id: 9,
@@ -91,7 +91,7 @@ const productData = [
     lastName: "Cinnamon chai tea",
     currency: "$",
     rate: 4.8,
-    image: "./assets/img/product-img9.png",
+    image: "/assets/img/product-img9.png",
   },
 ];
 

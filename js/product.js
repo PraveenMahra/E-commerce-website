@@ -55,7 +55,7 @@ const productData = [
     lastName: "Cinnamon chai tea",
     currency: "$",
     rate: 4.8,
-    image: "./assets/img/product-img1.png",
+    image: "/assets/img/product-img1.png",
     variants: [
       { name: "bag 50g", price: 3.9 },
       { name: "bag 100g", price: 6 },
