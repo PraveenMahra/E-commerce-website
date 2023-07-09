@@ -164,34 +164,29 @@ for (let i = 0; i < productData.length; i++) {
   if (productData[i].id === clickedId) {
     productImage.insertAdjacentHTML(
       "afterbegin",
-      `
-    <div class="product-img">
-    <img src="${productData[i].image}" alt="img" />
-  </div>
-    `
+      `<div class="product-img">
+          <img src="${productData[i].image}" alt="img" />
+       </div>`
     );
 
     productDetails.insertAdjacentHTML(
       "afterbegin",
-      `
-  <h2 class="heading product-description-heading">
-  ${productData[i].name} ${productData[i].lastName}
-</h2>
-<p class="product-description-para">
-  A lovely warming Chai tea with ${productData[i].name} ${productData[i].lastName} flavours.
-</p>
-<div class="product-origin">
-  <img src="/assets/img/language.svg" alt="icon" />
-  <p>Origin: ${productData[i].origin} </p>
+      `<h2 class="heading product-description-heading">
+          ${productData[i].name} ${productData[i].lastName}
+       </h2>
+        <p class="product-description-para">
+          A lovely warming Chai tea with ${productData[i].name} ${productData[i].lastName} flavours.
+        </p>
+        <div class="product-origin">
+          <img src="/assets/img/language.svg" alt="icon" />
+          <p>Origin: ${productData[i].origin} </p>
 
-  <img src="/assets/img/redeem.svg" alt="icon" />
-  <p>${productData[i].property}</p>
+          <img src="/assets/img/redeem.svg" alt="icon" />
+          <p>${productData[i].property}</p>
 
-  <img src="/assets/img/eco.svg" alt="icon" />
-  <p> ${productData[i].vegan} </p>
-</div>
-
-  `
+          <img src="/assets/img/eco.svg" alt="icon" />
+          <p> ${productData[i].vegan} </p>
+        </div>`
     );
   }
 }
