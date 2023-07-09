@@ -155,15 +155,10 @@ const productDetails = document.querySelector(".product-description");
 
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
-const clickedId = urlParams.get("id");
 
-if (clickedId !== null) {
-  // Use the `clickedId` for further processing or display
-  console.log(clickedId);
-} else {
-  // Handle the case when `clickedId` is null
-  console.log("No product ID found in the URL");
-}
+// Get the ID value from the 'product' query parameter
+const id = urlParams.get("product");
+const clickedId = parseInt(id);
 
 for (let i = 0; i < productData.length; i++) {
   if (productData[i].id === clickedId) {
