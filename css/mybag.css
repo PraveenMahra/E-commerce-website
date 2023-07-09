@@ -61,14 +61,6 @@
   cursor: pointer;
 }
 
-.add-quantity {
-  font-size: 2.2rem;
-}
-
-.add-quantity span {
-  margin: auto 8px;
-}
-
 .add-quantity p {
   font-weight: 500;
   font-size: 1.6rem;
@@ -245,6 +237,36 @@
 
 .rate {
   font-weight: 500;
+}
+
+.add-quantity {
+  font-size: 2.2rem;
+  color: #000000;
+}
+
+.add-quantity input {
+  border: none;
+  outline: none;
+  width: 5rem;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input-btn {
+  border: none;
+  cursor: pointer;
+  background: none;
+  font-size: 1.6rem;
+}
+
+.select-quantity {
+  display: flex;
 }
 
 @media (max-width: 77rem) {
