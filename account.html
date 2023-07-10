@@ -12,141 +12,152 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <div class="container">
-    <header>
-      <div class="brand-name">
-        <h2 class="heading"><a href="/">Maa ka aashirvad</a></h2>
-      </div>
-      <nav>
-        <ul class="navbar">
-          <a href="/collection"><li>TEA COLLECTIONS</li> </a>
-          <a href="#"><li>ACCESSORIES</li> </a>
-          <a href="#"><li>BLOG</li> </a>
-          <a href="#"><li>CONTACT US</li> </a>
-        </ul>
-      </nav>
-      <div class="icon">
-        <a href="#"> <i class="fa-solid fa-magnifying-glass"></i></a>
-        <a href="/account"> <i class="fa-regular fa-user"></i></a>
-        <a href="/bag"> <i class="fa-solid fa-bag-shopping"></i></a>
-      </div>
-    </header>
+  <body>
+    <div class="container">
+      <header>
+        <div class="brand-name">
+          <h2 class="heading"><a href="/">Maa ka aashirvad</a></h2>
+        </div>
+        <nav>
+          <ul class="navbar">
+            <a href="/collection"><li>TEA COLLECTIONS</li> </a>
+            <a href="#"><li>ACCESSORIES</li> </a>
+            <a href="#"><li>BLOG</li> </a>
+            <a href="#"><li>CONTACT US</li> </a>
+          </ul>
+        </nav>
+        <div class="icon">
+          <a href="#"> <i class="fa-solid fa-magnifying-glass"></i></a>
+          <a href="/account"> <i class="fa-regular fa-user"></i></a>
+          <a href="/bag"> <i class="fa-solid fa-bag-shopping"></i></a>
+        </div>
+      </header>
 
-    <section class="account-page">
-      <div class="sign-in-page">
-        <h2 class="sign-in-heading">Already a customer?</h2>
+      <section class="account-page">
+        <div class="sign-in-page">
+          <h2 class="sign-in-heading">Already a customer?</h2>
 
-        <p>Welcome back! Sign in for faster checkout.</p>
+          <p>Welcome back! Sign in for faster checkout.</p>
 
-        <form action="">
-          <div class="user-detail">
-            <img src="/assets/icons/emai.svg" alt="icon" />
-            <input type="text" placeholder="Email Address" />
-          </div>
-          <div class="user-detail">
-            <img src="/assets/icons/password.svg" alt="icon" />
-            <input type="text" placeholder="Enter your password" />
-          </div>
-
-          <div class="forget-password">
-            <div class="remember-box">
-              <input type="checkbox" id="checkbox" />
-              <label for="checkbox">Please remember me</label>
+          <form action="" id="form-sign-in">
+            <div class="user-detail">
+              <img src="/assets/icons/emai.svg" alt="icon" />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                autocomplete="off"
+                placeholder="Email Address"
+                required
+              />
+            </div>
+            <div class="user-detail">
+              <img src="/assets/icons/password.svg" alt="icon" />
+              <input
+                type="password"
+                name="password"
+                id="password"
+                autocomplete="off"
+                placeholder="Enter your password"
+                required
+              />
             </div>
 
-            <a href="#"> Forget password? </a>
-          </div>
+            <div class="forget-password">
+              <div class="remember-box">
+                <input type="checkbox" id="remember-me" />
+                <label for="remember-me">Please remember me</label>
+              </div>
 
-          <button class="sign-in-btn">SIGN IN</button>
-        </form>
-      </div>
+              <a href="#"> Forget password? </a>
+            </div>
 
-      <div>
-        <div class="create-account-page">
-          <h2 class="create-account-heading">New to our company?</h2>
-          <p>Create an account for the best experience</p>
-          <div>
-            <img src="/assets/icons/expand_more.svg" alt="icon" />
-            <p>Modify and track your orders</p>
-          </div>
-          <div>
-            <img src="/assets/icons/expand_more.svg" alt="icon" />
-            <p>Faster checkout</p>
-          </div>
-          <div>
-            <img src="/assets/icons/expand_more.svg" alt="icon" />
-            <p>Get a 10% discount for new customer</p>
-          </div>
+            <button class="sign-in-btn">SIGN IN</button>
+          </form>
+        </div>
 
-          <button class="creat-account-btn">CREATE AN ACCOUNT</button>
-        </div>
-        <div class="checkout">
-          <h2 class="checkout-heading">Guest checkout</h2>
-          <p>No ready to become a customer?</p>
-          <button class="checkout-btn">CHECKOUT AS A GUEST</button>
-        </div>
-      </div>
-    </section>
-  </div>
+        <div>
+          <div class="create-account-page">
+            <h2 class="create-account-heading">New to our company?</h2>
+            <p>Create an account for the best experience</p>
+            <div>
+              <img src="/assets/icons/expand_more.svg" alt="icon" />
+              <p>Modify and track your orders</p>
+            </div>
+            <div>
+              <img src="/assets/icons/expand_more.svg" alt="icon" />
+              <p>Faster checkout</p>
+            </div>
+            <div>
+              <img src="/assets/icons/expand_more.svg" alt="icon" />
+              <p>Get a 10% discount for new customer</p>
+            </div>
 
-  <footer class="section-footer">
-    <div class="container">
-      <div class="sec-footer">
-        <div>
-          <h2 class="sec-footer-heading">COLLECTIONS</h2>
-          <ul>
-            <li><a href="#"> Black teas</a></li>
-            <li><a href="#"> Green teas</a></li>
-            <li><a href="#"> White teas</a></li>
-            <li><a href="#"> Herbal teas</a></li>
-            <li><a href="#"> Matcha</a></li>
-            <li><a href="#"> Chai</a></li>
-            <li><a href="#"> Oolang</a></li>
-            <li><a href="#"> Rooibos</a></li>
-            <li><a href="#"> Teware</a></li>
-          </ul>
+            <button class="creat-account-btn">CREATE AN ACCOUNT</button>
+          </div>
         </div>
-        <div>
-          <h2 class="sec-footer-heading">LEARN</h2>
-          <ul>
-            <li><a href="#"> About us</a></li>
-            <li><a href="#"> About our teas</a></li>
-            <li><a href="#"> Tea academy</a></li>
-          </ul>
-        </div>
-        <div>
-          <h2 class="sec-footer-heading">CUSTOMER SERVICE</h2>
-          <ul>
-            <li><a href="#"> Ordering and payment</a></li>
-            <li><a href="#"> Delivery</a></li>
-            <li><a href="#"> Privacy and policy</a></li>
-            <li><a href="#"> Terms & conditions</a></li>
-          </ul>
-        </div>
-        <div>
-          <h2 class="sec-footer-heading">CONTACT US</h2>
-          <ul>
-            <li>
-              <i class="sec-footer-icon fa-solid fa-location-dot"></i>
-              <a href="#">
-                3 Falahi, Falahi St, Pasdaran Ave, <br />
-                Shiraz, Fars Provieence <br />
-                Iran
-              </a>
-            </li>
-            <li>
-              <i class="sec-footer-icon fa-regular fa-envelope"></i>
-              <a href="#"> Email: amoopur@gmail.com </a>
-            </li>
-            <li>
-              <i class="sec-footer-icon fa-solid fa-phone"></i>
-              <a href="#"> Tel: +98 9173038406 </a>
-            </li>
-          </ul>
-        </div>
-      </div>
+      </section>
     </div>
-  </footer>
 
-  <body></body>
+    <footer class="section-footer">
+      <div class="container">
+        <div class="sec-footer">
+          <div>
+            <h2 class="sec-footer-heading">COLLECTIONS</h2>
+            <ul>
+              <li><a href="#"> Black teas</a></li>
+              <li><a href="#"> Green teas</a></li>
+              <li><a href="#"> White teas</a></li>
+              <li><a href="#"> Herbal teas</a></li>
+              <li><a href="#"> Matcha</a></li>
+              <li><a href="#"> Chai</a></li>
+              <li><a href="#"> Oolang</a></li>
+              <li><a href="#"> Rooibos</a></li>
+              <li><a href="#"> Teware</a></li>
+            </ul>
+          </div>
+          <div>
+            <h2 class="sec-footer-heading">LEARN</h2>
+            <ul>
+              <li><a href="#"> About us</a></li>
+              <li><a href="#"> About our teas</a></li>
+              <li><a href="#"> Tea academy</a></li>
+            </ul>
+          </div>
+          <div>
+            <h2 class="sec-footer-heading">CUSTOMER SERVICE</h2>
+            <ul>
+              <li><a href="#"> Ordering and payment</a></li>
+              <li><a href="#"> Delivery</a></li>
+              <li><a href="#"> Privacy and policy</a></li>
+              <li><a href="#"> Terms & conditions</a></li>
+            </ul>
+          </div>
+          <div>
+            <h2 class="sec-footer-heading">CONTACT US</h2>
+            <ul>
+              <li>
+                <i class="sec-footer-icon fa-solid fa-location-dot"></i>
+                <a href="#">
+                  3 Falahi, Falahi St, Pasdaran Ave, <br />
+                  Shiraz, Fars Provieence <br />
+                  Iran
+                </a>
+              </li>
+              <li>
+                <i class="sec-footer-icon fa-regular fa-envelope"></i>
+                <a href="#"> Email: amoopur@gmail.com </a>
+              </li>
+              <li>
+                <i class="sec-footer-icon fa-solid fa-phone"></i>
+                <a href="#"> Tel: +98 9173038406 </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="/js/auth.js"></script>
+  </body>
 </html>

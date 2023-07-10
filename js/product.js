@@ -188,5 +188,6 @@ for (let i = 0; i < productData.length; i++) {
           <p> ${productData[i].vegan} </p>
         </div>`
     );
+    break;
   }
 }
