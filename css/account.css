@@ -23,7 +23,7 @@
   border: 1px solid #282828;
   margin: 3.8rem auto;
   width: 45.6rem;
-  padding: 1.6rem 2rem;
+  padding: 0 0 0 1.6rem;
 }
 
 .user-detail input {
@@ -32,6 +32,7 @@
   color: #282828;
   border: none;
   outline: none;
+  padding: 1.6rem 0;
 }
 
 .forget-password {
