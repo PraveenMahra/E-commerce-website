@@ -34,6 +34,9 @@ form.addEventListener("submit", function (e) {
 
   if (!validatePassword(password)) {
     alert("Please enter a valid password");
+    alert(
+      "password should be contain one uppercase, one lowercase, one numeral and one special character."
+    );
     return;
   }
 
@@ -50,3 +53,15 @@ form.addEventListener("submit", function (e) {
     sessionStorage.setItem("user", JSON.stringify(USER));
   }
 });
+
+function isLoggedIn() {
+  const isLoggedIn =
+    localStorage.getItem("isLoggedIn") ||
+    sessionStorage.getItem("isLoggedIn") === "true";
+  return isLoggedIn;
+}
+
+// Usage
+if (isLoggedIn()) {
+  window.location.href = "/index";
+}
