@@ -35,6 +35,11 @@
   font-size: 1.4rem;
 }
 
+.product-detail-list label:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .product-details-heading {
   width: 21.6rem;
   position: relative;
@@ -110,6 +115,14 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 2.4rem;
   margin-bottom: 19.8rem;
+}
+
+.rate-list img {
+  transition: all 0.5s;
+}
+
+.rate-list img:hover {
+  transform: scale(1.04);
 }
 
 @media (max-width: 83rem) {
