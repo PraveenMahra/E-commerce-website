@@ -11,6 +11,7 @@ export default defineConfig({
         bag: resolve(__dirname, "bag.html"),
         account: resolve(__dirname, "account.html"),
         success: resolve(__dirname, "success.html"),
+        createAccount: resolve(__dirname, "createAccount.html"),
       },
     },
   },
