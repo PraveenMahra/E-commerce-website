@@ -11,6 +11,7 @@ forgetPasswordForm.addEventListener("submit", function (event) {
     showMessage("Please enter your email.");
   } else {
     showMessage("Password reset email sent to: " + email);
+    messageElement.style.color = "#282828";
     forgetPasswordForm.reset();
   }
 });
