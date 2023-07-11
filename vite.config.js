@@ -12,6 +12,7 @@ export default defineConfig({
         account: resolve(__dirname, "account.html"),
         success: resolve(__dirname, "success.html"),
         createAccount: resolve(__dirname, "createAccount.html"),
+        forgetPassword: resolve(__dirname, "forgetPassword.html"),
       },
     },
   },
