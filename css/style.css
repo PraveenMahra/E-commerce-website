@@ -78,24 +78,39 @@
   text-align: center;
 }
 
+.collection-grid div:hover {
+  text-decoration: underline;
+}
+
 .collection-heading {
   text-align: center;
   margin: 5rem;
   font-size: 3.2rem;
 }
 
-.collection-grid img {
+.collection-grid-img {
   width: 36rem;
-  margin-bottom: 1.8rem;
+  overflow: hidden;
+  margin: auto;
+}
+
+.collection-grid img {
+  transition: all 0.5s;
+  width: 100%;
+}
+
+.collection-grid img:hover {
+  transform: scale(1.04);
 }
 
 .collection-grid p {
   font-weight: 500;
   font-size: 1.6rem;
   margin-bottom: 6rem;
+  margin-top: 1.8rem;
 }
 
-.collection-grid p a {
+.collection-grid div a {
   text-decoration: none;
   color: #282828;
 }
@@ -250,9 +265,8 @@
     gap: 4rem;
   }
 
-  .collection-grid img {
-    width: 98%;
-    margin-bottom: 1rem;
+  .collection-grid-img {
+    width: 100%;
   }
 
   .collection-grid p {
